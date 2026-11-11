@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>kakulator</title>
+    </head>
+    <body>
+        <h1>kakulator</h1>
+        <h5>input</h5>
+        <input id="angka" type="number" placeholder="angka">
+        <input type="number" id="angka2" placeholder="cuma nilai terbesar">
+        <input type="number" id="angka3" placeholder="cuma nilai terbesar">
+        <h3>pilih mode</h3>
+        <button onclick="mode_h(`ganjilgenap`)">ganjil genap</button>
+        <button onclick="mode_h(`cf`)">Celcius ke Fahrenheit</button>
+        <button onclick="mode_h(`big`)">Nilai Terbesar</button>
+        <button onclick="mode_h(`k`)">Tahun Kabisat</button>
+        <button onclick="mode_h(`diskon`)">harga Setelah Diskon</button>
+        <h5>output</h5>
+        <h2 id="output"></h2>
+        <script src="script.js"></script>
+    </body>
+</html>
